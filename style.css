@@ -1,0 +1,140 @@
+body{
+  /* background-color: #fef6f7; */
+  margin: 0;
+  font-family: 'Dancing Script', cursive;
+}
+a{
+  font-family: 'Dancing Script', cursive;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color:black;
+}
+
+h1{
+  font-size: 5.5rem;
+  font-family: 'David Libre', serif;
+  color: #48353a;
+  margin-left: 325px;
+  line-height: 1.5;
+
+}
+
+h3{
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5rem;
+}
+h4{
+  font-size: 1.3rem;
+  margin-left: 325px;
+  font-family: 'David Libre', serif;
+  line-height: 1.5;
+  position: relative;
+  bottom:80px;
+  color: #48353a;
+}
+p{
+  font-size:2.0rem;
+  font-family: 'David Libre', serif;
+}
+.start{
+  font-size: 1.5rem;
+  font-family: 'David Libre', serif;
+    margin-left: 305px;
+
+}
+.logo{
+  height:200px;
+  width: 200px;
+  position: fixed;
+}
+.flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.hero{
+  background-image: url("images/back.jpg");
+  background-size: cover;
+  background-position: right center;
+  background-repeat: no-repeat;
+  padding:25%;
+
+}
+.flow{
+  height: 346px;
+  width:326px;
+  max-width: 100%;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.quotes{
+
+}
+.quote1{
+    width: 50%;
+    text-align: center;
+    font-family: 'David Libre', serif;
+    background-color: #f7f1ee;
+    padding:  40px 120px 40px 120px;
+}
+.quote2{
+      width: 50%;
+text-align: center;
+font-family: 'David Libre', serif;
+padding: 40px 120px 40px 120px;
+}
+.round{
+  width: 75px;
+    border-radius: 50px;
+
+}
+.couch{
+  width: 1039px;
+  height: 417px;
+  width: 100%;
+
+}
+img{
+  /* width: 100% */
+
+}
+.chair{
+  border: 0;
+}
+.social-media{
+background-color:#eeae9f;;
+text-align: center;
+padding: 40px 0px 40px 0px;
+margin:-10px;
+border: 0;
+
+}
+.media-size{
+  width: 105px;
+  height:30px;
+}
+.icon{
+  color:white;
+}
+footer{
+  text-align: right;
+  font-size: 1.5rem;
+  background-color: #48353a;
+  padding: 20px;
+ color: white;
+}
+
+@media (max-width :600px){
+  img .flow{
+    width: 100%;
+  }
+  div .quote1{
+    width: 100%;
+  }
+}
